@@ -14,6 +14,14 @@
 
 ---
 
+## 核心结果（Key Results）
+- XGBoost 模型达到 R² = 0.783，RMSE = 8.79，优于线性回归模型（R² ≈ 0.74）  
+- 学习时间、出勤率和睡眠时间是最重要的影响因素  
+- 交互项分析表明，不同学习方式下学习时间的影响存在差异  
+- SHAP 结果与回归分析一致，验证了关键变量的重要性  
+
+---
+
 ## 数据集
 - 来源：Kaggle Playground Series (https://www.kaggle.com/competitions/playground-series-s6e1)
 - 训练集：约 630,000 条观测  

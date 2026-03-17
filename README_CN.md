@@ -87,6 +87,18 @@ XGBoost | ~0.783 |
 
 ---
 
+## 预测结果输出
+
+模型在测试集上的预测结果已保存为：
+
+- xgboost_predictions.csv
+
+文件包含：
+- id：样本标识
+- predicted_score：预测成绩
+
+---
+
 ## 项目结构
 
 ```

@@ -79,7 +79,7 @@ XGBoost | ~0.783 |
 
 - 预测值与真实值对比图（Prediction vs Actual）
 ![Feature Importance](figures/prediction_vs_actual.png) 
-- ）特征重要性图（Feature Importance)
+- 特征重要性图（Feature Importance)
 ![Feature Importance](figures/feature_importance.png)
 - SHAP 总结图（SHAP Summary Plot)
 ![SHAP Summary](figures/shap_summary.png)

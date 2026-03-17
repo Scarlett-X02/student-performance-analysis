@@ -20,6 +20,8 @@ The project aims to answer the following questions:
 
 The dataset contains behavioral and contextual variables related to student learning.
 
+This dataset is sourced from Kaggle: https://www.kaggle.com/competitions/playground-series-s6e1
+
 Key variables include:
 
 - **study_hours** – number of hours spent studying
@@ -182,10 +184,8 @@ Future work could explore causal inference approaches or incorporate additional 
 
 This project was developed as part of a data analysis portfolio demonstrating statistical modeling and machine learning skills.
 
-## Data Source
+## Declaration
 
-The dataset is sourced from Kaggle:
+The dataset is sourced from Kaggle public dataset. Used for educational and non-commercial purposes. 
 
-https://www.kaggle.com/competitions/playground-series-s6e1
-
-Used for educational and non-commercial purposes.
+For learning and project demonstration only.

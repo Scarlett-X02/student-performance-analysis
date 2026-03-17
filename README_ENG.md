@@ -1,0 +1,173 @@
+# student-performance-analysis
+
+## Project Overview
+
+This project investigates how learning behaviors influence student exam performance using both statistical analysis and machine learning methods.
+
+The analysis combines traditional regression models with modern machine learning techniques to identify the most important predictors of academic success.
+
+The project aims to answer the following questions:
+
+- Which behavioral factors most strongly influence exam performance?
+- Do machine learning models improve predictive performance compared with traditional regression?
+- How can model interpretability techniques help explain predictions?
+
+---
+
+## Dataset
+
+The dataset contains behavioral and contextual variables related to student learning.
+
+Key variables include:
+
+- **study_hours** – number of hours spent studying
+- **class_attendance** – class attendance rate
+- **sleep_hours** – average sleep duration
+- **sleep_quality** – reported sleep quality
+- **study_method** – preferred study method
+- **facility_rating** – rating of learning facilities
+- **exam_difficulty** – perceived exam difficulty
+- **gender**
+- **age**
+
+The dataset contains more than **600,000 observations**, allowing for large-scale statistical and machine learning analysis.
+
+---
+
+## Methods
+
+The analysis follows a complete data science workflow:
+
+### 1. Exploratory Data Analysis (EDA)
+
+Initial exploration of variable distributions and relationships between learning behaviors and exam scores.
+
+### 2. Regression Analysis
+
+- Ordinary Least Squares (OLS) regression
+- Hierarchical regression models
+- Interaction effects between study hours and study methods
+
+### 3. Model Diagnostics
+
+- Residual analysis
+- Multicollinearity testing using VIF
+
+### 4. Machine Learning Model
+
+A machine learning model was implemented using **XGBoost** to improve prediction performance.
+
+Model evaluation includes:
+
+- Train/validation split
+- Cross-validation
+- Performance metrics (R² and RMSE)
+
+### 5. Model Explainability
+
+Model predictions were interpreted using **SHAP (SHapley Additive Explanations)** to identify the most influential features.
+
+---
+
+## Model Performance
+
+| Model | R² |
+|------|------|
+OLS Regression | ~0.741 |
+XGBoost | ~0.783 |
+
+The XGBoost model slightly improves predictive performance compared with the linear regression model.
+
+---
+
+## Key Findings
+
+The analysis identifies several important predictors of exam performance:
+
+1. **Study hours** is the strongest predictor of exam scores.
+
+2. **Class attendance** also plays a significant role in student outcomes.
+
+3. **Sleep quality and sleep duration** contribute to academic performance.
+
+4. Learning environment factors such as **facility rating** influence outcomes.
+
+5. The **amount of study time** appears to be more important than the specific study method.
+
+Both statistical models and machine learning models consistently highlight the importance of student engagement behaviors.
+
+---
+
+## Example Results
+
+### Prediction vs. Actual (XGBoost)
+![Feature Importance](figures/prediction_vs_actual.png)
+
+### Feature Importance (XGBoost)
+
+![Feature Importance](figures/feature_importance.png)
+
+### SHAP Feature Impact
+
+![SHAP Summary](figures/shap_summary.png)
+
+---
+
+## Tools and Technologies
+
+- Python
+- pandas
+- numpy
+- scikit-learn
+- XGBoost
+- SHAP
+- statsmodels
+- matplotlib
+- seaborn
+
+---
+
+## Project Structure
+
+```
+student-performance-analysis
+│
+├── notebooks
+│   └── student_performance_analysis.ipynb
+│
+├── figures
+│   ├── prediction_vs_actual.png
+│   ├── feature_importance.png
+│   ├── shap_summary.png
+│
+├── results
+│   └── xgboost_predictions.csv
+│
+├── README_ENG.md
+├── README_CN.md
+├── requirements.txt
+
+```
+---
+
+## Limitations
+
+This analysis is based on observational data and therefore does not establish causal relationships.
+
+Other potentially important factors such as prior academic ability, motivation, and socioeconomic background are not included in the dataset.
+
+Future work could explore causal inference approaches or incorporate additional behavioral and contextual variables.
+
+---
+
+## Author
+
+This project was developed as part of a data analysis portfolio demonstrating statistical modeling and machine learning skills.
+
+## Data Source
+
+The dataset is sourced from Kaggle:
+
+https://www.kaggle.com/competitions/playground-series-s6e1
+
+Used for educational and non-commercial purposes.

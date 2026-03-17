@@ -25,6 +25,16 @@ The project aims to answer the following questions:
 
 ---
 
+## Business Interpretation
+
+The results suggest that behavioral factors such as study time and attendance play a more critical role than demographic characteristics.
+
+This indicates that interventions targeting study habits may be more effective than structural changes.
+
+Additionally, model consistency across regression and XGBoost strengthens confidence in these findings.
+
+---
+
 ## Dataset
 
 The dataset contains behavioral and contextual variables related to student learning.

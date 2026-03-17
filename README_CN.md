@@ -22,6 +22,11 @@
 
 ---
 
+## 结果解读
+结果表明，相比人口学变量，学习时间和出勤率等行为因素对成绩影响更大。这意味着，相比结构性改变，优化学习习惯可能是更有效的干预方向。同时，回归模型与XGBoost模型结果一致，增强了结论的可靠性。
+
+---
+
 ## 数据集
 - 来源：Kaggle Playground Series (https://www.kaggle.com/competitions/playground-series-s6e1)
 - 训练集：约 630,000 条观测  

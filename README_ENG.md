@@ -16,6 +16,15 @@ The project aims to answer the following questions:
 
 ---
 
+## Key Results
+
+- XGBoost achieved R² = 0.783 and RMSE = 8.79, outperforming OLS regression (R² ≈ 0.74)  
+- Study hours, attendance, and sleep are the strongest predictors of exam performance  
+- Interaction effects show that the impact of study hours varies across study methods  
+- Model interpretability (SHAP) confirms consistent feature importance across methods  
+
+---
+
 ## Dataset
 
 The dataset contains behavioral and contextual variables related to student learning.
@@ -38,7 +47,7 @@ The dataset contains more than **600,000 observations**, allowing for large-scal
 
 ---
 
-## Methods
+## Methodology
 
 The analysis follows a complete data science workflow:
 

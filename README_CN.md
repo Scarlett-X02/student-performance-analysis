@@ -77,11 +77,11 @@ XGBoost | ~0.783 |
 ## 可视化
 项目包含以下图表（见 `figures/` 文件夹）：
 
-- 特征重要性图（Feature Importance）
-![Feature Importance](figures/prediction_vs_actual.png) 
-- SHAP 总结图（SHAP Summary Plot）
-![Feature Importance](figures/feature_importance.png)
 - 预测值与真实值对比图（Prediction vs Actual）
+![Feature Importance](figures/prediction_vs_actual.png) 
+- ）特征重要性图（Feature Importance)
+![Feature Importance](figures/feature_importance.png)
+- SHAP 总结图（SHAP Summary Plot)
 ![SHAP Summary](figures/shap_summary.png)
 - 其他模型图表详情请见.ipynb文件。
 
